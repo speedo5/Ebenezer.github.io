@@ -1,0 +1,442 @@
+body{
+  overflow-x: hidden;
+  background-color:rgb(218,230,226) ;
+}
+  html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+
+@media screen and (max-width: 650px) {
+
+     .home{
+height: 500px;
+
+        }
+
+    .heading{
+    transform: translate(15px,50px);
+    }
+    .heading a{
+      font-size: 2vw;
+  }
+    a{
+        border-radius: 4px;
+        font-size: 2.7vw;
+        border-left:1px solid #fff ;
+        border-right:1px solid #fff ;
+        padding: 2px;
+    }
+    .logo{
+ visibility:hidden;
+        }
+        .title1{
+            position: relative;
+            transform: translate(30px, 110px);
+            font-size: 50px;
+            width: 100%;
+            height: auto;
+        }
+        .title2{
+            position: relative;
+            transform: translate(10%, 250%);
+            width: 400px;
+            font-size: 4vw;
+            height: auto;  
+            color: #fff;
+            text-align: center;
+        }
+        .vision{
+          position:absolute;
+          width: 100%;
+          height: 450px;
+          background-color: #C0C0C0;
+          text-align: center;
+          left:0px;
+          right: 0;
+          top: 533px;
+          padding: 10px;
+      }
+      .visio{
+        position: relative;
+        width: 50%;
+       justify-content: center;
+        height: auto;
+        transform: translate(70%,40px);
+   
+    }
+
+    .img_vision1{
+      position: relative;
+      transform: translate(55%,10%);
+      width: 45%;
+      height: auto;
+    }
+    .img_vision2{
+      position: relative;
+      transform: translate(-30%,30%);
+width: 45%;
+height: auto;
+    }
+    .lanmo{
+      width: 30vw;
+      height: 40px;
+
+  }
+  .visio p{
+    position: relative;
+    width: 150%;
+    left: -90px;
+    font-size: 3vw;
+}
+
+.scrolling-container{
+  top: 450px;
+
+}
+.scrolling-container h1{
+  font-size: 4vw;
+}
+.section h2{
+  font-size: 3vw;
+  left: 5px;
+}
+
+.section h3{
+  font-size: 2vw;
+
+}
+.urprojects{
+  position: absolute;
+  top: 1030px;
+  left: 10%;  
+   font-family: Tahoma; 
+   font-size: 5vw;
+
+}
+
+.myline{
+top: 1070px; 
+left: 3%;
+
+}
+        .projects{
+          top: -750px;
+          margin: 3px;
+          float: left;
+        }
+        .project1{
+          top: 1850px;
+          left: 0;
+          width: 150px;
+        }
+        .project2{
+          top: 1850px;
+          width: 150px;
+          left: 32%;
+        }
+        .project3{
+          top: 1850px;
+          width: 150px;
+          left: 65%;
+        }
+        .project4{
+          top: 2250px;
+          width: 150px;
+          left:0;
+        }
+    
+        .project5{
+          top: 2250px;
+          width: 150px;
+          left: 32%;
+
+        }
+    
+        .project6{
+          top: 2250px;
+          width: 150px;
+          left: 65%;
+
+        }
+        .join_us{
+         top: 1900px;
+        }
+        .join-container {
+          left: 0;
+          top: 120px;
+        }
+        .join_us h2{
+          top: 0px;
+          font-size: 3vw;
+        } 
+        .join_us p{
+          text-align: left;
+          width: 35%;
+          top: 70px;
+          font-size: 2.5vw;
+          left: 55px;
+        }
+        .policy{
+          font-size: 2.1vw;
+          top: 310px;
+        
+        }  
+        .myjoin{
+          font-size: 5vw;
+          top: 1820px;
+        }
+        .myline2{
+        position: absolute;
+        top: 1860px; 
+        width: 90%;
+        left: 5%;
+        
+        }
+        /*Contact Page*/
+        .contact_home{
+          top: 2250px;
+        }
+        .map{
+          left: -10px;
+        top: 190px;
+        
+        }
+        .contact_list h2{
+          font-size:2.5vw;
+          }
+          .contact_list p{
+            top:90px ;
+            font-size: 2.5vw;
+             }
+             .contact_section{
+              border: none;
+            }
+        .contact_list{
+          width: 500px;
+          height: 350px;
+          left: 0;
+        }
+
+        .contact_section{
+          width: 500px;
+          height: 450px;
+          top: 410px;
+          left: 0;
+        }
+        .slider{
+          top: 3080px;
+        }
+        .about-section {
+          height: 95vh;
+        }
+        .impact{
+          width: 30vw;
+          height: 200px; 
+        }
+        .impact h3{
+          font-size: 3vw;
+        }
+        .impact h2{
+          font-size: 3vw;
+        }
+        .column {
+          left: 0;
+        }
+        .patnership{
+         top: 4700px;
+        }
+        .footer{
+          top: 4950px;
+        }
+        .cnu i a{
+          font-size: 1.9vw;
+        }
+        .cnu i{
+          font-size: 4vw;
+        }
+        .cnu{
+          width: 40%;
+        }
+        .subscribe-container {
+          left: 14%;
+        }
+
+        .contact_line{
+          visibility: hidden;
+               }
+         .contact_line2{
+          visibility: hidden;
+               }
+
+
+    /*jump links*/
+    #About_us{
+      position:absolute;
+        width: 100%;
+        left:0px;
+        right: 0;
+        top: 535px;
+    }
+    #Gallery{
+  position:relative;
+  margin:3px;
+  width: 180px;
+  top: 650px;
+    }
+    #Project_Reviews{
+      position: absolute;
+        top: 900px;
+    }
+#Connect{
+
+  position: absolute;
+  top: 2110px;
+}
+  }
+
+  /*
+  @media screen and (width: 768px) {
+    /* For desktop:
+
+
+    .home{
+      height: 500px;
+              }
+      
+          .heading{
+          transform: translate(48%,35px);
+             word-spacing: 5px;
+          }
+      
+          a{
+              font-size: 17px;
+          }
+          .logo{
+              transform: translate(-35px,-80px);
+              }
+              .title1{
+                  position: relative;
+                  -webkit-transform: translate(30%, 60%);
+                  -ms-transform: translate(30%, 600%);
+                  transform: translate(30px, 60px);
+                  font-size: 60px;
+                  width: 100%;
+                  height: auto;
+              }
+              .title2{
+                  position: relative;
+                  -webkit-transform: translate(90%, 100%);
+                  -ms-transform: translate(90%, 100%);
+                  transform: translate(45%, 100%);
+                  width: 450px;
+                  height: auto;  
+                  color: #fff;
+                  text-align: center;
+              }
+              .vision{
+                  top: 500px;
+              }
+           
+              .urgallery{
+                  top: 1010px;
+                  left: 35%;
+              }
+          
+              div.gallery {
+             
+                left: 3%;
+              }
+          .urprojects{
+                  top: 2130px;
+                  left: 35%;           
+              }
+              .projects{
+                top: 450px;
+                margin: 3px;
+                float: left;
+              }
+              .project1{
+                top: 1850px;
+                left: 0;
+                width: 250px;
+              }
+              .project2{
+                top: 1850px;
+                width: 250px;
+                left: 32%;
+              }
+              .project3{
+                top: 1850px;
+                width: 250px;
+                left: 65%;
+              }
+              .project4{
+                top: 2170px;
+                width: 250px;
+                left:0;
+              }
+          
+              .project5{
+                top: 2170px;
+                width: 250px;
+                left: 32%;
+      
+              }
+          
+              .project6{
+                top: 2170px;
+                width: 250px;
+                left: 65%;
+      
+              }
+          
+              /*Contact Page
+              .contact_home{
+                top: 3050px;
+              }
+        
+              .contact_list{
+                width: 400px;
+                height: 350px;
+                left: 0;
+              }
+      
+              .contact_section{
+                width: 400px;
+                height: 350px;
+                left: 400px;
+              }
+      
+          
+              .slider{
+                top: 3520px;
+                width:100%;
+                height:450px;
+              }
+      
+          .patnership{
+               top: 4000px;
+                height:350px;
+          
+              }
+      
+          .footer{
+            top: 4350px;
+            background-color: black;
+          }
+      
+          .cnu{
+              font-size: 13px;
+             }
+          
+      }
+
+*/
+
+
+  
