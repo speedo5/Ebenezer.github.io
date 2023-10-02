@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+        background-color:rgb(218,230,226) ;
+
+    }
+table {
+    position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  top: 100px;
+  padding: 20px;
+  left: 10%;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+img{
+    width: 15vw;
+    border-radius: 10px;
+    height: auto;
+}
+tr:nth-child(even){background-color:powderblue;}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    width: 100%;
+    background-color: teal;
+    z-index: 99;
+}
+.header h2{
+    font-family: Tahoma;
+    color: #fff;
+    text-align: center;
+}
+button{
+    width: 10vw;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #930707;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 1.0vw;
+}
+#popupContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#popupContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#popupContent h2{
+font-family: Tahoma;
+text-align: center;
+}
+#popupContent p{
+  font-size: 1.5vw;
+  font-family: Tahoma;
+
+}
+#closePopupBtn {
+  background-color: #333;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+    <div class="header">
+        <h2>Staff Information </h2>
+    </div>
+<div >
+  <table>
+    <tr>
+      <th>Chief Coodinator</th>
+      <th></th>
+
+
+    </tr>
+    <tr>
+      <td> <img src="isa010.jpg" alt=""> </td>
+      <td>
+<h1>Cosmas Otieno</h1>
+<p>Remember to regularly update the website to
+     keep information current and engaging for visitors.
+      Additionally, consider consulting with stakeholders, 
+      including staff, children, and volunteers, to ensure that the website 
+    accurately reflects the spirit of the children's home.</p>
+    <button  id="popupBtn" >  <a href="">Contact</a> </button>
+
+      </td>
+      <tr>
+        <th>Chairlady</th>
+        <th></th>
+  
+  
+      </tr>
+      <tr>
+        <td> <img src="isa010.jpg" alt=""> </td>
+        <td>
+  <h1>Ruth Akinyi</h1>
+  <p>Remember to regularly update the website to
+       keep information current and engaging for visitors.
+        Additionally, consider consulting with stakeholders, 
+        including staff, children, and volunteers, to ensure that the website 
+      accurately reflects the spirit of the children's home.</p>
+  
+  <button ><a href="">Contact</a></button>
+        </td>
+  
+      </tr>
+
+      <tr>
+        <th>Treasurer</th>
+        <th></th>
+  
+  
+      </tr>
+      <tr>
+        <td> <img src="isa010.jpg" alt=""> </td>
+        <td>
+  <h1>Roby Oguta</h1>
+  <p>Remember to regularly update the website to
+       keep information current and engaging for visitors.
+        Additionally, consider consulting with stakeholders, 
+        including staff, children, and volunteers, to ensure that the website 
+      accurately reflects the spirit of the children's home.</p>
+  
+      <button > <a href="">Contact</a></button>
+
+        </td>
+  
+      </tr>
+  </table>
+</div>
+
+
+
+ 
+<div id="popupContainer">
+    <div id="popupContent">
+      <h2>Contact us</h2>
+      <br>
+      <p>Phone: 0794463360</p>
+      <p>Email: cosmasotieno@yahoo.com</p> 
+      <p>Facebook: Cosmas Otieno</p>
+      <br>
+      <button id="closePopupBtn">Close</button>
+    </div>
+  </div>
+  
+
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const popupContainer = document.getElementById('popupContainer');
+  const popupBtn = document.getElementById('popupBtn');
+  const closePopupBtn = document.getElementById('closePopupBtn');
+  
+  popupBtn.addEventListener('click', function () {
+    popupContainer.style.display = 'block';
+  });
+  
+  closePopupBtn.addEventListener('click', function () {
+    popupContainer.style.display = 'none';
+  });
+  });
+  
+  </script>
+
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_table_responsive by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:38:49 GMT -->
+</html>

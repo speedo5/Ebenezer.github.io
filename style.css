@@ -46,26 +46,28 @@ transform: translate(80%,27px);
    word-spacing: 20px;
 }
 
-#give{
+.give{
   position: absolute;
  /* background-color: rgb(25, 9, 203);*/
   background-color: orangered;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-size: 1.7vw;
   letter-spacing:0.9px;
   font-weight: bold;
   font-family: Tahoma;
   border-radius: 5px;
-  color: #fff;
   border: none;
  height: 120%; 
  width: 15vw; 
  left: 105%;
  top: -12px;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 110px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
  -webkit-animation: breathing 5s ease-out infinite normal;
  animation: breathing 5s ease-out infinite normal;
  -webkit-font-smoothing: antialiased;
 
+}
+.gv{
+  color: #fff;
 }
 @-webkit-keyframes breathing {
 0% {
@@ -182,12 +184,16 @@ transform: translate(80%,27px);
       position: relative;
       transform: translate(-15%,10%);
       width: 40%;
+      border-radius: 10px;
       height: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
     .img_vision2{
       position: relative;
       transform: translate(-90%,30%);
 width: 40%;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 height: auto;
     }
     .dis_vision{
@@ -200,8 +206,16 @@ height: auto;
       transform: translate(100%,-120%);
  
   }
+  #lanmo{
+    border: 2px solid black;
+    background: transparent;
+  }
+  #lanmo a{
+    color: black;
+font-weight: bold;
+  }
     .lanmo{
-        width: 20vw;
+        width: 15vw;
         height: 40px;
         border: none;
         border-radius: 5px;
@@ -210,6 +224,10 @@ height: auto;
         -webkit-animation: breathing 5s ease-out infinite normal;
         animation: breathing 5s ease-out infinite normal;
         -webkit-font-smoothing: antialiased;
+    }
+    .lanmo a{
+      text-decoration: none;
+      color: #fff;
     }
     p{
         position: relative;
@@ -278,7 +296,15 @@ div.desc {
       position: absolute;
       top: -400px;
       width: 100%;
+      left: 0;
       height: auto;
+    }
+    .projects h3{
+      font-family: Tahoma;
+      font-size: 2vw;
+    }
+    .projects p{
+      font-size: 1.5vw;
     }
        .project1{
       position: absolute;
@@ -290,9 +316,11 @@ div.desc {
       background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(Farming.jpeg);
       background-position: center;
       border-radius: 10px;
+      font-family: Tahoma;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       background-repeat: no-repeat;
       background-size: cover;
-      color: #fff;
+      color:#fff;
     }
     .project2{
       position: absolute;
@@ -303,6 +331,8 @@ div.desc {
       border-radius: 10px;
       justify-content: center;
       left: 36%;
+      font-family: Tahoma;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    /*   background: url(fish\ cage.jpg);*/
       background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(fish\ cage.jpg);
       background-position: center;
@@ -319,6 +349,8 @@ div.desc {
       text-align: center;
       justify-content: center;
       left: 71%;
+      font-family: Tahoma;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /*  background: url(poultry\ farming.jpg);*/
       background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(poultry\ farming.jpg);
       background-position: center;
@@ -335,6 +367,8 @@ div.desc {
       text-align: center;
       justify-content: center;
       left: 36%;
+      font-family: Tahoma;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    /*   background: url(Comunity.jpg);*/
       background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(Comunity.jpg);
       background-position: center;
@@ -351,6 +385,8 @@ div.desc {
       height: auto;
       text-align: center;
       justify-content: center;
+      font-family: Tahoma;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      /* background: url(teamwork.jpg);*/
       background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(teamwork.jpg);
       background-position: center;
@@ -368,12 +404,32 @@ div.desc {
       text-align: center;
       justify-content: center;
       left: 71%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      font-family: Tahoma;
    /*   background: url(Cultural.jpg);*/
       background-image: linear-gradient(rgba(70, 130, 180, .8), rgba(178, 34, 34, .8)), url(Cultural.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       color: #fff;
+    }
+    .project1:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    }
+    .project2:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    }
+    .project3:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    }
+    .project4:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    }
+    .project5:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    }
+ .project6:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     }
     .pro_logo{
       position: absolute;
@@ -413,7 +469,7 @@ div.desc {
   text-align: left;
   left: 55px;
   width: 40%;
-  top: 30px;
+  top: 10px;
   font-family:Tahoma;
   font-size: 2vw;
 }  
@@ -433,7 +489,7 @@ div.desc {
 }  
 .join_us img{
   position: relative;
-left: 25%;
+left: 50%;
   width: 45vw;
   border-radius: 10px;
   top: -150px;
@@ -456,12 +512,12 @@ left: 5%;
 }
 
     /*jump links*/
-    #About_us{
+    #Home{
       position:absolute;
         width: 100%;
         left:0px;
         right: 0;
-        top: 535px;
+        top: 530px;
     }
     #Gallery{
   position:relative;
@@ -476,7 +532,7 @@ left: 5%;
 #Connect{
 
   position: absolute;
-  top: 2750px;
+  top: 2780px;
 }
     /*Contact Page*/
     .contact_home{
@@ -695,7 +751,7 @@ left: 5%;
 
 .patnership{
       position: absolute;
-     top: 4500px;
+     top: 1800px;
      background-color:rgb(218,230,226) ;
       left: 0;
       right: 0;
@@ -708,12 +764,13 @@ left: 5%;
       height: 380px;
     width: 360px;
     }
+    /*
     div.scroll-container {
         overflow: auto;
         white-space: nowrap;
         padding: 5px;
         overflow: scroll;
-      }
+      }*/
       
       div.scroll-container img {
         padding: 5px;
@@ -814,18 +871,27 @@ border-radius: 5px;
 
 .scrolling-container{
   position:absolute;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
-  width: 100vw;
-  height: 90vh;
   white-space: nowrap;
   left: 0;
+  top: 950px;
 padding: 50px;
-background-color: rgba(0, 0, 0, 0.5);
 }
-
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35); 
+}
 .content {
+  position: relative;
   display: inline-flex;
   animation: scrollAnimation 35s linear infinite;
+  top: -500px;
 
 }
 
@@ -836,7 +902,7 @@ background-color: rgba(0, 0, 0, 0.5);
   width: 55vw;
   height: 300px;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.1);
  color: #fff;
  font-family: Tahoma;
  left: 5px;
@@ -845,18 +911,24 @@ border-radius: 5px;
 }
 
 .section:nth-child(1) {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
 }
 
 .section:nth-child(2) {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0,0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
 }
 
 .section:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 .section:nth-child(4) {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 @keyframes scrollAnimation {
@@ -1032,7 +1104,7 @@ top: 270px;
 }
 .footer{
   position: absolute;
-  top: 4850px;
+  top: 2150px;
   width:100%;
   left: 0;
   right: 0;
@@ -1050,6 +1122,7 @@ top: 270px;
   width: 38%;
   height: auto;
   left: 35%;
+  color: #fff;
 }
 #myDiv p{
   font-size: 1.2vw;
@@ -1140,3 +1213,73 @@ i:hover{
   color: #3498db;
   text-align: center;
 }
+
+#textContainer {
+  position: relative;
+  transform: translate(0, 100%);
+  font-size: 18px;
+  padding: 20px;
+  width: 400px;
+  margin: 50px auto;
+  color: #fff;
+  border: 2px solid #ccc;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.fadeIn {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.visio h1{
+  font-family: Tahoma;
+
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#scroll-animation {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Style for the div when it is visible */
+#scroll-animation.active {
+  opacity: 1;
+}
+
+
+div.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Individual photo styling */
+.scroll-container img {
+  width: 100%;
+  scroll-snap-align: start;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Applied when photo is in viewport */
+.scroll-container img.active {
+  transform: translateX(0);
+}
+
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent content from wrapping to the next line */
+}
+
