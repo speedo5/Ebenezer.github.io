@@ -13,6 +13,10 @@ function showDiv() {
         //     changeBackground();
         //     iterations++;
         //     if (iterations === maxIterations) {
-        //         clearInterval(interval);
-        //     }
-        // }, 5000);
+        //         clearInterv
+    
+        //  </video>al(interval);   }  </div>>
+
+        // }, 5000);   <video autoplay muted loop id="video-background"><div class="overlay">    <source src="backvid.mp4" type="video/mp4"
+
+    
